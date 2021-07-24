@@ -4,12 +4,19 @@
     margin: 0;
     padding: 0;
     color: rgb(247, 240, 240);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    transition: all 0.6s ease;
 }
 
 div {
-    background-color: royalblue;
-    width: 280px;
-    height: 300px;
+    /* width: 280px;
+    height: 300px; */
+    width: 350px;
+    height: 350px;
+    padding: 6px 24px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -17,18 +24,29 @@ div {
     align-items: center;
 }
 
-span {
-    font-size: 22px;
+h1 {
+    line-height: 30px;
+    letter-spacing: 0.02em;
 }
 
-#total_playlist_time {
-    color: #000;
+span {
+    margin-top: 30px;
+    font-size: 21px;
+}
+
+.playlist_time {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 30px;
+    padding: 9px 30px;
+    background-color: #EDEDED;
 }
 
 button {
-    padding: 10px 15px;
-    background-color: #000;
-    border-radius: 20px;
+    background-color: #FFDE40;
     border: none;
-    font-size: 16px;
+    font-size: 19px;  
+    padding: 17px 49px;
+    box-shadow: 0px 0px 8px #FFDE40;
+    border-radius: 6px;
 }

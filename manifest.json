@@ -1,6 +1,6 @@
 {
-    "name": "Запускаем снежинки на любом сайте",
-    "description": "Проект журнала Код",
+    "name": "Playlist time",
+    "description": "Расширения для получения общей времени плайлиста youtube",
     "version": "1.0",
     "manifest_version": 3,
     "permissions": [

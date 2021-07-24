@@ -9,6 +9,7 @@ snow.addEventListener("click", async () => {
         function: snowFall,
     }, function (results) {
         total_playlist_time.innerText = results[0].result
+        total_playlist_time.setAttribute('class', 'playlist_time')
     })    
 })
 
